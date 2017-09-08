@@ -10,28 +10,8 @@
   </head>
 
   <body>
-    <div class="jumbotron jumbotron-fluid myJumbotron">
-      <div class="container">
-        <img class="profile" src="selfie ATG 2016.jpg">
-          <h1 class="display-3 myName"> Richard Jon Santos</h1>
-            <p class="lead mySub">I am currently a full time student at Coder Academy to become a Software Developer</p>
-      </div>
-    </div>
+    <%= render "layouts/shared/nav" %>
 
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html"> Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html"> Portfolio </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html"> About </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html"> Contact </a>
-      </li>
-    </ul>
     <%= yield %>
   </body>
 </html>
