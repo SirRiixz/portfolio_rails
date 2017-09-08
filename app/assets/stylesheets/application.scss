@@ -1,6 +1,8 @@
 @import "bootstrap";
 
-
+h1{
+  font-size: 5vw !important;
+}
 
  body {
        background-color: #FFF9F3;
@@ -85,6 +87,7 @@
  .github, .instagram, .facebook, .linkedin {
    padding: 5px 0px;
    margin: 5px;
+   background: cover;
    /*width: 100px;
    height: 100px;*/
 
@@ -105,8 +108,8 @@
  }
 
  img.code {
-   height: 500px;
-   width: 1000px;
+   height: 60vh;
+   width: 60vw;
    margin: 50px auto;
    display: block;
  }
