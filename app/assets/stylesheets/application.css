@@ -13,3 +13,119 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+       background-color: #FFF9F3;
+
+ }
+
+ img.profile {
+     height: 200px;
+     width: 200px;
+     margin: auto;
+     display: block;
+     border-radius: 100px;
+     /*float: right;*/
+
+ }
+
+ .contactpicture {
+     border-radius: 100px;
+     height: 200px;
+     width: 200px;
+     margin: auto;
+     display: block;
+
+ }
+
+ .myJumbotron {
+     background-color: #edfffa;
+
+ }
+
+ .myName {
+   color: #000;
+   text-align: center;
+   font-family: serif;
+ }
+
+ .mySub {
+   color: grey;
+   text-align: center;
+   font-family: serif;
+ }
+
+ .nav {
+     background-color: lightgrey;
+     list-style-type: none;
+     font-family: serif;
+     /*margin: 100px, 100px, 100px, 100px;*/
+
+ }
+
+ .nav-item {
+     margin: 5px;
+     padding: 0px;
+     width: 250px;
+     height: 40px;
+ }
+
+
+ li a {
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 10px 16px;
+     text-decoration: none;
+
+ }
+
+ li a:hover {
+     background-color: #e0fff7;
+     color: black;
+
+ }
+
+
+ .footer {
+   display:block;
+   margin: 0 auto;
+   text-align: center;
+
+ }
+
+ .github, .instagram, .facebook, .linkedin {
+   padding: 5px 0px;
+   margin: 5px;
+   /*width: 100px;
+   height: 100px;*/
+
+ }
+
+ p.about {
+   text-align: center;
+   margin: 50px;
+
+ }
+
+ h2.motto {
+   text-align: center;
+ }
+
+ h2.follow {
+   margin-top: 50px;
+ }
+
+ img.code {
+   height: 500px;
+   width: 1000px;
+   margin: 50px auto;
+   display: block;
+ }
+ /*img.socialmediaicons {
+   height: 250px;
+   width: 250px;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+ }*/
