@@ -16,24 +16,24 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require_tree .
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
-
-// Initialize jRumble on Selector
-('#rumble-element').jrumble();
-
-// Start rumble on element
-('#rumble-element').trigger('startRumble');
-
-// Stop rumble on element
-('#rumble-element').trigger('stopRumble');
-
-('#demo12').jrumble({
-	x: 6,
-	y: 6,
-	rotation: 6,
-	speed: 5,
-	opacity: true,
-	opacityMin: .05
-});
+//
+// <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+// <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+//
+// // Initialize jRumble on Selector
+// ('#rumble-element').jrumble();
+//
+// // Start rumble on element
+// ('#rumble-element').trigger('startRumble');
+//
+// // Stop rumble on element
+// ('#rumble-element').trigger('stopRumble');
+//
+// ('#demo12').jrumble({
+// 	x: 6,
+// 	y: 6,
+// 	rotation: 6,
+// 	speed: 5,
+// 	opacity: true,
+// 	opacityMin: .05
+// });
